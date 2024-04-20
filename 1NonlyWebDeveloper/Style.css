@@ -2,14 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    outline: 0;
+}
+
+body,
+html {
     font-size: 16px;
     font-family: josefin sans;
+}
+
+.head {
+    font-weight: 900;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    padding: 20px 0px;
+    font-family: math;
+    font-size: 20px;
 }
 
 .table tr:nth-child(odd) {
     background-color: green;
     color: aliceblue;
 }
+
+.foot{
+    position: absolute;
+    top: 750px;
+    left: 550px;
+    padding: 20px 0px;
+    font-family: math;
+    font-size: 20px;
+    font-weight: 900;
+}
+
